@@ -17,7 +17,7 @@ if __name__ == '__main__':
     reader.freqKHz = 866000 # single, static frequency
     #reader.freqKHz = [865700, 866900, 867500, 866300] # hop randomly on ETSI frequencies
     reader.blfKHz = 80 # tag backscatter link frequency
-    reader.encoding = 'FM0' # or Miller2, Miller4, Miller8
+    reader.encoding = 'FM0' # or M2, M4, M8
     reader.session = 2
 
     # search for tags

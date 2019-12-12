@@ -248,7 +248,7 @@ class PURReader:
     def encoding(self):
         '''
         Gets tag backscatter link encoding. 
-        Can be "FM0", "Miller2", "Miller4" or "Miller8"
+        Can be "FM0", "M2", "M4" or "M8"
         '''
         encKey = self.getParam(0x0021)
         return tagEncodings[encKey[0]]

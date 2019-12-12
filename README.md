@@ -23,7 +23,7 @@ reader = PURReader('COM7')
 # these are actually default though
 reader.freqKHz = [865700, 866900, 867500, 866300] # hop randomly on ETSI frequencies
 reader.blfKHz = 160 # tag backscatter link frequency
-reader.encoding = 'Miller2' # or FM0, Miller4, Miller8
+reader.encoding = 'M2' # or FM0, M4, M8
 reader.session = 1
 
 # search for tags

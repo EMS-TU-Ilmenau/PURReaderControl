@@ -224,7 +224,7 @@ tagFreqsKHz = {
 # tag encoding
 tagEncodings = {
     0x00: 'FM0', 
-    0x01: 'Miller2', 
-    0x02: 'Miller4', 
-    0x03: 'Miller8'
+    0x01: 'M2', 
+    0x02: 'M4', 
+    0x03: 'M8'
 }
